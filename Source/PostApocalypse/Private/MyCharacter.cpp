@@ -55,3 +55,9 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("Turn", this, &AMyCharacter::AddControllerYawInput);
 }
 
+FVector AMyCharacter::GetPawnViewLocation() const
+{
+	if (cameraComp) return cameraComp->GetComponentLocation();
+	return Super::GetPawnViewLocation();
+}
+
