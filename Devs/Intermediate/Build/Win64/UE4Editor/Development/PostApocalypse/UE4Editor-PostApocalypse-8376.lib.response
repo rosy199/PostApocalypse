@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PostApocalypse-8376.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\PostApocalypseEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\PostApocalypse.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\PostApocalypseGameModeBase.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\MyCharacter.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\Weapon.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\MyCharacter.gen.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\PostApocalypse.init.gen.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\PostApocalypseGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\Weapon.gen.cpp.obj"
+"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\PCLaunch.rc.res"
+/OUT:"D:\Unreal Projects\PostApocalypse\Intermediate\Build\Win64\UE4Editor\Development\PostApocalypse\UE4Editor-PostApocalypse-8376.lib"
