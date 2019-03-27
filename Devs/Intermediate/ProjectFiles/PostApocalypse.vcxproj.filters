@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PostApocalypse.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{745883B1-FDA1-4F94-9BBC-D0A874E76858}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PostApocalypse.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PostApocalypseEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EC36F01E-83F8-4859-AC10-757DD9DDEA7E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PostApocalypse">
+      <UniqueIdentifier>{B92A5C91-6AFA-45DB-9D8D-0B04D4D99DA3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PostApocalypse\PostApocalypse.Build.cs">
+      <Filter>Source\PostApocalypse</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PostApocalypse\PostApocalypse.cpp">
+      <Filter>Source\PostApocalypse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PostApocalypse\PostApocalypse.h">
+      <Filter>Source\PostApocalypse</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PostApocalypse\PostApocalypseGameModeBase.cpp">
+      <Filter>Source\PostApocalypse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PostApocalypse\PostApocalypseGameModeBase.h">
+      <Filter>Source\PostApocalypse</Filter>
+    </ClInclude>
+    <Filter Include="Source\PostApocalypse\Private">
+      <UniqueIdentifier>{1C5B2110-BDC8-43F3-8856-D1C55F7745D6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PostApocalypse\Private\MyCharacter.cpp">
+      <Filter>Source\PostApocalypse\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PostApocalypse\Public">
+      <UniqueIdentifier>{79B94874-F738-47CA-99EC-E53C6C08BAEE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PostApocalypse\Public\MyCharacter.h">
+      <Filter>Source\PostApocalypse\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PostApocalypse\Public\Weapon.h">
+      <Filter>Source\PostApocalypse\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PostApocalypse\Private\Weapon.cpp">
+      <Filter>Source\PostApocalypse\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
